@@ -9,11 +9,16 @@ module.exports = new Reporter({
   async report(opts) {
     let runner = null;
 
-    if(opts.event.type === "watchStart") {
+    if (runner) {
+      await runner.reloadAllExtensions();
+      return;
+    }
+
+    if (opts.event.type === "watchStart") {
       watching = true;
     }
 
-    if(watching && !running && opts.event.type === "buildSuccess") {
+    if (watching && !running && opts.event.type === "buildSuccess") {
       running = true;
       const config = await getConfig();
 

@@ -1,6 +1,6 @@
 {
-  "name": "@parcel/reporter-web-ext-tool",
-  "version": "2.0.0",
+  "name": "parcel-reporter-web-ext",
+  "version": "0.3.0",
   "description": "A parcel plugin for web-ext.",
   "main": "./src/index.js",
   "scripts": {
@@ -17,20 +17,20 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mmktomato/parcel-plugin-web-ext-tool"
+    "url": "https://github.com/mmktomato/parcel-reporter-web-ext"
   },
   "bugs": {
-    "url": "https://github.com/mmktomato/parcel-plugin-web-ext-tool/issues"
+    "url": "https://github.com/mmktomato/parcel-reporter-web-ext/issues"
   },
   "peerDependencies": {
     "parcel": ">=2.x",
     "web-ext": ">=6.x"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-beta.2",
-    "web-ext": "^6.1.0"
+    "parcel": "^2.0.0-rc.0",
+    "web-ext": "^6.4.0"
   },
   "dependencies": {
-    "@parcel/plugin": "^2.0.0-alpha.3"
+    "@parcel/plugin": "^2.0.0-rc.0"
   }
 }

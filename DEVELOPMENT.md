@@ -10,4 +10,4 @@
 * `npm publish`
 * `npm logout`
 * Create a release in Github.
-    * Push `Draft a new release` button in https://github.com/mmktomato/parcel-plugin-web-ext-tool/releases
+    * Push `Draft a new release` button in https://github.com/mmktomato/parcel-reporter-web-ext/releases
