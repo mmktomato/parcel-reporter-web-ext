@@ -1,5 +1,5 @@
 # parcel-reporter-web-ext
-A parcel plugin for web-ext. This plugin integrates [Parcel](https://parceljs.org/) and [web-ext](https://github.com/mozilla/web-ext).
+A parcel plugin for web-ext. This plugin integrates [Parcel](https://v2.parceljs.org) and [web-ext](https://github.com/mozilla/web-ext).
 
 This plugin is for Parcel v2. The Parcel v1 version is [here](https://github.com/mmktomato/parcel-plugin-web-ext-tool).
 
