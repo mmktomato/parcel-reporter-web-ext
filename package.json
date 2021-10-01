@@ -24,6 +24,7 @@
   },
   "peerDependencies": {
     "parcel": ">=2.x",
+    "@parcel/config-webextension": ">=2.x",
     "web-ext": ">=6.x"
   },
   "devDependencies": {

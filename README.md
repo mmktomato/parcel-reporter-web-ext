@@ -6,10 +6,11 @@ This plugin is for Parcel v2. The Parcel v1 version is [here](https://github.com
 If you run `parcel`, `parcel serve` or `parcel watch`, the plugin runs `web-ext run` within it. If you modify your extension code, Parcel detects and rebuilds it, then web-ext detects it and reloads your extension.
 
 # Install
-Install via npm. In addtion, you need to install `parcel` and `web-ext` by yourself.
+Install via npm. In addtion, you need to install `parcel`, `@parcel/config-webextension` and `web-ext` by yourself.
 
 ```
-$ npm install --save-dev parcel web-ext parcel-reporter-web-ext
+# Note that you need `2.0.0-rc.0` or higher version of `parcel` and `@parcel/config-webextension`.
+$ npm install --save-dev parcel @parcel/config-webextension@next web-ext parcel-reporter-web-ext
 ```
 
 # Usage
