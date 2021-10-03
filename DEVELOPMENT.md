@@ -1,10 +1,10 @@
 # Release Procedure
 
-* `git switch master && git pull`
+* `git switch main && git pull`
 * `npm version [major|minor|patch]`
     * This generates a new tag.
-* `git push origin master`
-* `git push origin [version]`
+* `git push origin main`
+* `git push origin [tag]`
 * `npm login`
 * `npm publish --dry-run`
 * `npm publish`
