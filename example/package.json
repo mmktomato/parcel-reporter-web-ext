@@ -20,9 +20,9 @@
   "author": "mmktomato",
   "license": "MIT",
   "devDependencies": {
-    "@parcel/config-webextension": "^2.0.0-rc.0",
+    "@parcel/config-webextension": "^2.0.0",
     "parcel-reporter-web-ext": "file:..",
-    "parcel": "^2.0.0-rc.0",
+    "parcel": "^2.0.0",
     "web-ext": "^6.4.0"
   }
 }

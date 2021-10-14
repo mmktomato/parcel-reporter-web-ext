@@ -1,5 +1,5 @@
 # parcel-reporter-web-ext
-A parcel plugin for web-ext. This plugin integrates [Parcel](https://v2.parceljs.org) and [web-ext](https://github.com/mozilla/web-ext).
+A parcel plugin for web-ext. This plugin integrates [Parcel](https://parceljs.org/) and [web-ext](https://github.com/mozilla/web-ext).
 
 This plugin is for Parcel v2. The Parcel v1 version is [here](https://github.com/mmktomato/parcel-plugin-web-ext-tool).
 
@@ -9,8 +9,7 @@ If you run `parcel`, `parcel serve` or `parcel watch`, the plugin runs `web-ext 
 Install via npm. In addtion, you need to install `parcel`, `@parcel/config-webextension` and `web-ext` by yourself.
 
 ```
-# Note that you need `2.0.0-rc.0` or higher version of `parcel` and `@parcel/config-webextension`.
-$ npm install --save-dev parcel @parcel/config-webextension@next web-ext parcel-reporter-web-ext
+$ npm install --save-dev parcel @parcel/config-webextension web-ext parcel-reporter-web-ext
 ```
 
 # Usage

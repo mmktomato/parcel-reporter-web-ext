@@ -28,10 +28,10 @@
     "web-ext": ">=6.x"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-rc.0",
+    "parcel": "^2.0.0",
     "web-ext": "^6.4.0"
   },
   "dependencies": {
-    "@parcel/plugin": "^2.0.0-rc.0"
+    "@parcel/plugin": "^2.0.0"
   }
 }
