@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "parcel": "^2.0.0",
-    "web-ext": "^6.4.0"
+    "web-ext": "^6.4.0 <7.0.0"
   },
   "dependencies": {
     "@parcel/plugin": "^2.0.0"
